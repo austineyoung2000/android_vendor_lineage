@@ -9,7 +9,6 @@ endif
 ifeq ($(WITH_GMS),true)
 $(call inherit-product, vendor/google/overlays/ThemeIcons/config.mk)
 $(call inherit-product, vendor/pixel-framework/config.mk)
-$(call inherit-product, vendor/pixel-style/config/common.mk)
 
 # Don't dexpreopt prebuilts. (For GMS).
 DONT_DEXPREOPT_PREBUILTS := true
